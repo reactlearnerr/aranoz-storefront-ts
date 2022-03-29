@@ -1,12 +1,12 @@
-import { useState } from "react";
-import { Routes } from "react-router-dom";
 import "./App.css";
+import AppRoutes from "./AppRoutes";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Aranoz.co</header>
-      <Routes />
+      <Navbar />
+      <AppRoutes />
     </div>
   );
 }
